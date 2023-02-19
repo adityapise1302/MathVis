@@ -5,7 +5,7 @@ import urllib.request
 
 app = Flask(__name__)
 IMAGE_GEN_OPENAI_ENDPOINT = "https://api.openai.com/v1/images/generations"
-BEARER_TOKEN = "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"
+BEARER_TOKEN = "Enter Your Token"
 
 
 @app.route("/getComicURL")
